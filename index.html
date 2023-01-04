@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>&nbsp // TO - DO</h1>
+        <svg viewBox="0 0 24 24" id="logo">
+            <path fill="currentColor" d="M16.5 11L13 7.5L14.4 6.1L16.5 8.2L20.7 4L22.1 5.4L16.5 11M11 7H2V9H11V7M21 13.4L19.6 12L17 14.6L14.4 12L13 13.4L15.6 16L13 18.6L14.4 20L17 17.4L19.6 20L21 18.6L18.4 16L21 13.4M11 15H2V17H11V15Z" />
+        </svg>
+    </header>
+    <!-- The sidebar -->
+    <div id="sidebar">
+        <div id="projects">
+            <p class="active">Default</p>
+        </div>
+        <!-- Add buttons or other content to the sidebar -->
+        <button id="addProject">+ Add Project</button>
+    </div>
+    <!-- The main content -->
+    <div id="main">
+        <!-- Add your main content here -->
+        <h2>Tasks :</h2>
+        <div id="tasks">
+
+        </div>
+        <form id="task-form">
+            <label for="title">Title:</label>
+            <input required type="text" id="title" name="title">
+            <label for="description">Description:</label>
+            <textarea id="description" name="description"></textarea>
+            <label for="due-date">Due date:</label>
+            <input required type="date" id="due-date" name="due-date">
+            <label for="priority">Priority:</label>
+            <select id="priority" name="priority">
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
+            </select>
+            
+            <br>
+            <input required type="submit" value="Submit">
+          </form>          
+    </div>
+    
+</body>
+</html>
