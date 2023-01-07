@@ -1,0 +1,41 @@
+.high{
+border-left: red 5px solid;
+}
+.medium{
+border-left: orange 5px solid;
+}
+.low{
+border-left: green 5px solid;
+}
+
+div.task-title{
+    font-size:1.4rem; 
+    cursor: pointer;
+    word-wrap: break-word;
+    border-bottom: 1px black solid;
+}
+
+input#checkbox{
+    text-align: right;
+}
+.task-description,
+.task-due-date{
+    font-size:1.2rem;
+    word-wrap: break-word;
+
+}
+
+.task div {
+    padding: 1rem;
+}
+.task label {
+    padding: 1rem;
+}
+
+.hidden {
+    display: none;
+  }
+
+#arrow{
+    float: right;
+}

@@ -1,0 +1,48 @@
+#task-form {
+    width: clamp(200px, 50%, 900px);
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #task-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
+  }
+  
+  #task-form input[type="text"],
+  #task-form textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #task-form input[type="date"],
+  #task-form option,
+  #task-form select,
+  #task-form textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  #task-form input[type="submit"] {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
